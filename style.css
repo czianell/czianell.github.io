@@ -16,8 +16,9 @@
 }
 
 h1 {
-  font-family: "Shrikhand", sans-serif;
-  color: black;
+  font-family: "Days One", sans-serif;
+  color: #4b9fc7;
+  font-weight: lighter;
 }
 
 body {
@@ -46,30 +47,53 @@ nav a:hover {
 
 #profile-div {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   align-content: flex-start;
   margin-top: 2.5%;
-  width: 75vw;
+  width: 60vw;
   height: auto;
-  /* background-color: aquamarine; */
-}
-
-.profile-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  height: 300px;
-  margin-left: 10%;
-  background-color: white;
-  opacity: 0.75;
-  border-radius: 2%;
-  box-shadow: -15px 15px #86a9b9;
+  /* background-color: #05668d; */
 }
 
 #profile-pic {
-  width: 280px;
-  height: 280px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 315px;
+  height: 315px;
+  text-align: center;
+  margin-left: 5vw;
+}
+
+#profile-text-box {
+  color: #4b9fc7;
+  padding: 10px;
+  margin-top: 3vh;
+  margin-left: -5vw;
+  width: 30vw;
+  height: 15vw;
+  background-color: white;
+  box-shadow: #96c7de -5px 5px, #c9e2ee -10px 10px;
+}
+
+#main-contact-div {
+  margin-top: 2.5%;
+  width: 40vw;
+  height: auto;
+  font-weight: lighter;
+}
+
+.contact-div {
+  text-align: center;
+  color: #4b9fc7;
+  margin-top: 45px;
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.contact-div a {
+  color: #4b9fc7;
+  text-decoration: none;
 }
